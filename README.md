@@ -23,13 +23,25 @@ I build and modernize production applications with C#, .NET 10, ASP.NET Core, SQ
 - Observable failure paths and auditable operations
 - Migration strategies that preserve operational continuity
 
-## Current focus
+## Featured public project
 
-I am building public clean-room reference projects that demonstrate secure .NET modernization without using proprietary code, data, schemas, workflows, or documentation.
+### [SecureFlow — Secure .NET 10 Workflow API](https://github.com/MatheusDanielPereira/secureflow-dotnet)
+
+A clean-room reference implementation of a secure enterprise approval workflow. It demonstrates:
+
+- JWT/OIDC authentication and scope-based authorization
+- Separation of duties and explicit domain invariants
+- Optimistic concurrency with ETags and `If-Match`
+- Immutable audit events, rate limiting, and defensive HTTP controls
+- Layered architecture, Docker, locked dependencies, Dependabot, and GitHub Actions
+- **22 automated tests with a passing public CI pipeline**
+
+This project contains no proprietary code, data, schemas, workflows, or documentation.
 
 ## Connect
 
 - [Portfolio](https://matheus-pereira-dotnet-portfolio.fungardenia.chatgpt.site)
 - [LinkedIn](https://www.linkedin.com/in/matheusdaniel/)
+- [SecureFlow source code](https://github.com/MatheusDanielPereira/secureflow-dotnet)
 
 Based in Brazil. Open to remote international opportunities and relocation.
