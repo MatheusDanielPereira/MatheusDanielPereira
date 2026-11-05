@@ -13,7 +13,7 @@ I build and modernize production applications with C#, .NET 10, ASP.NET Core, SQ
 
 ## Core stack
 
-`C#` · `.NET 10` · `ASP.NET Core` · `REST APIs` · `SQL Server` · `Entity Framework Core` · `xUnit` · `SignalR` · `OWASP` · `OIDC` · `Microsoft Entra ID` · `Power Apps` · `Power Automate` · `CI/CD`
+`C#` · `.NET 10` · `ASP.NET Core` · `REST APIs` · `Razor Pages` · `SQL Server` · `Entity Framework Core` · `xUnit` · `OpenTelemetry` · `SignalR` · `OWASP` · `OIDC` · `Microsoft Entra ID` · `Power Apps` · `Power Automate` · `CI/CD`
 
 ## Engineering principles
 
@@ -23,7 +23,21 @@ I build and modernize production applications with C#, .NET 10, ASP.NET Core, SQ
 - Observable failure paths and auditable operations
 - Migration strategies that preserve operational continuity
 
-## Featured public project
+## Featured public projects
+
+### [OpsGuardian — Incident & SLA Operations Platform](https://github.com/MatheusDanielPereira/opsguardian-dotnet)
+
+A full-stack .NET 10 application for incident response and SLA management. It demonstrates:
+
+- Responsive ASP.NET Core Razor Pages operations dashboard
+- Domain-driven incident lifecycle and severity-based SLA policies
+- EF Core with SQL Server and optimistic concurrency
+- Transactional outbox and background SLA monitoring
+- OpenID Connect, role-based authorization, antiforgery, rate limiting, and CSP
+- OpenTelemetry, liveness/readiness checks, Docker, Dependabot, and GitHub Actions
+- **15 automated tests covering domain rules and end-to-end web behavior**
+
+This is an original clean-room portfolio project with no employer code, data, or proprietary business rules.
 
 ### [SecureFlow — Secure .NET 10 Workflow API](https://github.com/MatheusDanielPereira/secureflow-dotnet)
 
@@ -42,6 +56,7 @@ This project contains no proprietary code, data, schemas, workflows, or document
 
 - [Portfolio](https://matheus-pereira-dotnet-portfolio.fungardenia.chatgpt.site)
 - [LinkedIn](https://www.linkedin.com/in/matheusdaniel/)
+- [OpsGuardian source code](https://github.com/MatheusDanielPereira/opsguardian-dotnet)
 - [SecureFlow source code](https://github.com/MatheusDanielPereira/secureflow-dotnet)
 
 Based in Brazil. Open to remote international opportunities and relocation.
